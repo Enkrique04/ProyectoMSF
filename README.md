@@ -27,7 +27,7 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Descripción detallada del sistema
 
-El sistema óptico, en particular el comportamiento de un fotoreceptor de la retina (bastón o cono) ante un estímulo luminoso, puede representarse de forma simplificada mediante un modelo que simule la dinámica de la transducción de luz en señal eléctrica. Este proceso puede describirse mediante un circuito equivalente donde se representan el retardo bioquímico, la conductancia de la membrana y la variación del potencial eléctrico del fotoreceptor.
+El sistema óptico, en particular el comportamiento de un fotoreceptor de la retina (bastón o cono) ante un estímulo luminoso, puede representarse de forma simplificada mediante un modelo que simule la dinámica de la transducción de luz en señal eléctrica. Este proceso puede describirse mediante un circuito equivalente donde se representan el retardo bioquímico, la conductancia de la membrana y la variación del potencial eléctrico del fotoreceptor.El comportamiento de este sistema, modelado mediante un circuito eléctrico de segundo orden, se establece bajo las siguientes suposiciones:
 
 1. El retardo bioquímico de la cascada de fototransducción, que incluye la activación de la rodopsina, transducina y PDE, se modela mediante una inductancia L, representando la inercia del sistema ante cambios rápidos de luz.
 
