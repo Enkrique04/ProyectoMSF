@@ -29,17 +29,17 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 El sistema óptico, en particular el comportamiento de un fotoreceptor de la retina (bastón o cono) ante un estímulo luminoso, puede representarse de forma simplificada mediante un modelo que simule la dinámica de la transducción de luz en señal eléctrica. Este proceso puede describirse mediante un circuito equivalente donde se representan el retardo bioquímico, la conductancia de la membrana y la variación del potencial eléctrico del fotoreceptor.
 
-1.El retardo bioquímico de la cascada de fototransducción, que incluye la activación de la rodopsina, transducina y PDE, se modela mediante una inductancia L, representando la inercia del sistema ante cambios rápidos de luz.
+1. El retardo bioquímico de la cascada de fototransducción, que incluye la activación de la rodopsina, transducina y PDE, se modela mediante una inductancia L, representando la inercia del sistema ante cambios rápidos de luz.
 
-2.La resistencia interna del fotoreceptor, asociada al transporte iónico longitudinal y pérdidas internas antes de llegar a la membrana, se modela mediante un resistor en serie R1.
+2. La resistencia interna del fotoreceptor, asociada al transporte iónico longitudinal y pérdidas internas antes de llegar a la membrana, se modela mediante un resistor en serie R1.
 
-3.La capacitancia de la membrana del fotoreceptor, responsable de almacenar carga y regular la velocidad a la que cambia el potencial de membrana, se modela mediante un capacitor C.
+3. La capacitancia de la membrana del fotoreceptor, responsable de almacenar carga y regular la velocidad a la que cambia el potencial de membrana, se modela mediante un capacitor C.
 
-4.La conductancia dependiente de cGMP, que regula la entrada de iones Na⁺ y Ca²⁺ a través de los canales sensibles a cGMP y determina la corriente en oscuridad, se modela con un resistor R2 en paralelo con el capacitor. Esta resistencia puede interpretarse como la vía por la cual se “descarga” o regula el potencial del fotoreceptor.
+4. La conductancia dependiente de cGMP, que regula la entrada de iones Na⁺ y Ca²⁺ a través de los canales sensibles a cGMP y determina la corriente en oscuridad, se modela con un resistor R2 en paralelo con el capacitor. Esta resistencia puede interpretarse como la vía por la cual se “descarga” o regula el potencial del fotoreceptor.
 
-5.El potencial de salida del circuito, Vout(t), representa el potencial de membrana del fotoreceptor, el cual se hiperpolariza cuando disminuye la concentración de cGMP por acción de la luz.
+5. El potencial de salida del circuito, Vout(t), representa el potencial de membrana del fotoreceptor, el cual se hiperpolariza cuando disminuye la concentración de cGMP por acción de la luz.
 
-6.El flujo fotoeléctrico, equivalente a la absorción de fotones y activación de la rodopsina, se interpreta como el flujo de señal que atraviesa la rama serie L–R1 hasta el nodo de la membrana (representado por la combinación R2–C).
+6. El flujo fotoeléctrico, equivalente a la absorción de fotones y activación de la rodopsina, se interpreta como el flujo de señal que atraviesa la rama serie L–R1 hasta el nodo de la membrana (representado por la combinación R2–C).
 
 La señal de entrada al sistema, Ve(t), se modela como un impulso unitario de luz, equivalente a un destello breve que activa de manera súbita la cascada de fototransducción. Esta señal permite estudiar la respuesta transitoria del fotoreceptor, incluyendo el retardo inicial, el pico de hiperpolarización y el retorno al estado de reposo, de forma análoga a cómo el fotoreceptor reacciona ante un estímulo visual abrupto.
 
