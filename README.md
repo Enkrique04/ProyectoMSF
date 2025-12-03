@@ -1,8 +1,11 @@
 # Proyecto: Sistema optico
 
-## Información del estudiante
+## Información de los estudiantes
 
+German E. Avila [22212250]; L22212250@tectijuana.edu.mx
+Josue Chizek Espinoza [22212382]; l22212382@tectijuana.edu.mx
 Ian E. Estrada [22211753]; l22211753@tectijuana.edu.mx
+Diego S. Lopez [22211759]; L22211759@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
@@ -40,7 +43,13 @@ Para el caso Sano, se propusieron los valores basales:
 3. $C = 0.02\ F$
 4. $L = 0.1\ H$ 
 
-Palabras clave: ?,?,?,?,?.
+Para el caso con Degeneración Retinal, se utilizaron valores modificados que reflejan el daño fisiológico (menor conductancia y pérdida de discos):
+1. $R_1 = 1.2\ k\Omega$ (Aumento por menor conductancia de membrana)
+2. $R_2 = 2.0\ k\Omega$ (Aumento drástico por pérdida de conectividad sináptica)
+3. $C = 0.008\ F$ (Disminución por reducción del área de membrana)
+4. $L = 0.15\ H$ (Aumento por retardo en la cinética química)
+
+Palabras clave: Fototransducción; Circuito RLC; Degeneración Retinal; Fotorreceptores; Modelado dinámico.
 
 ## Lista de archivos incluidos en el repositorio
 
@@ -49,6 +58,8 @@ Palabras clave: ?,?,?,?,?.
 
 ## Referencias
 
-[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
+[1] Lamb, T. D., & Pugh Jr, E. N. (1992). A quantitative account of the activation steps involved in phototransduction in amphibian photoreceptors. The Journal of Physiology, 449(1), 719-758.
 
-[2]  M. Tetschke, P. Lilienthal, T. Pottgiesser, T. Fischer, E. Schalk & S. Sager, Mathematical Modeling of RBC Count Dynamics after Blood Loss , Processes, vol. 6, issue 9, Sep 2018. https://doi.org/10.3390/pr6090157
+[2] Hille, B. (2001). Ion Channels of Excitable Membranes (3rd ed.). Sinauer Associates.
+
+[3] Hartong, D. T., Berson, E. L., & Dryja, T. P. (2006). Retinitis pigmentosa. The Lancet, 368(9549), 1795-1809.
