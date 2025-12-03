@@ -3,8 +3,11 @@
 ## Información de los estudiantes
 
 German E. Avila [22212250]; L22212250@tectijuana.edu.mx
+
 Josue Chizek Espinoza [22212382]; l22212382@tectijuana.edu.mx
+
 Ian E. Estrada [22211753]; l22211753@tectijuana.edu.mx
+
 Diego S. Lopez [22211759]; L22211759@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
