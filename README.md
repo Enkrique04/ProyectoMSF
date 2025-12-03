@@ -28,7 +28,17 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Descripción detallada del sistema
 
-El siguiente modelo matemático basado en un circuito eléctrico RLC serie-paralelo es una representación analógica de la transducción visual, el proceso mediante el cual un fotón de luz genera una respuesta nerviosa en los fotorreceptores de la retina444444.Con respecto a las variables del sistema, la entrada $V_{in}$ modela el flujo de fotones absorbidos por el pigmento (fuente), mientras que la salida $V_{out}$ representa el potencial de membrana resultante5555. Los componentes del circuito no son físicos, sino que modelan dinámicas fisiológicas específicas: la inductancia $L$ representa la inercia fisiológica o el retardo en la cascada química (transducina/fosfodiesterasa) 6666; la capacitancia $C$ modela la capacidad de almacenamiento de carga en los discos membranosos del fotorreceptor7; $R_1$ describe la resistividad del segmento celular y fugas iónicas 8888; y $R_2$ representa la eficiencia sináptica hacia las células bipolares9999.
+El siguiente modelo matemático basado en un circuito eléctrico RLC serie-paralelo es una representación analógica de la transducción visual, el proceso mediante el cual un fotón de luz genera una respuesta nerviosa en los fotorreceptores de la retina.
+Con respecto a las variables del sistema, la entrada $V_{in}$ modela el flujo de fotones absorbidos por el pigmento (fuente), mientras que la salida $V_{out}$ representa el potencial de membrana resultante. Los componentes del circuito no son físicos, sino que modelan dinámicas fisiológicas específicas: la inductancia $L$ representa la inercia fisiológica o el retardo en la cascada química (transducina/fosfodiesterasa); la capacitancia $C$ modela la capacidad de almacenamiento de carga en los discos membranosos del fotorreceptor7; $R_1$ describe la resistividad del segmento celular y fugas iónicas; y $R_2$ representa la eficiencia sináptica hacia las células bipolares.
+La degeneración retinal se simula alterando estos parámetros para reflejar la pérdida de estructura del tejido y la muerte celular, lo que resulta en una respuesta más lenta, sobreamortiguada y con menor ganancia.
+
+El sistema se analizó con los siguientes parámetros de resistencia, inductancia y capacitancia:
+
+Para el caso Sano, se propusieron los valores basales:
+1. $R_1 = 1.0\ k\Omega$
+2. $R_2 = 0.8\ k\Omega$
+3. $C = 0.02\ F$
+4. $L = 0.1\ H$ 
 
 Palabras clave: ?,?,?,?,?.
 
