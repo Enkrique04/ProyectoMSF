@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MATLAB
+message: 'Lenguaje,m'
+type: software
+authors:
+  - given-names: German Emmanuel
+    family-names: Avila Sanchez
+    email: L22212250@tectijuana.edu.mx
+    affiliation: ITT
+  - given-names: Josue
+    family-names: 'Chizek Espinoza '
+    email: l22212382@tectijuana.edu.mx
+    affiliation: ITT
+  - given-names: Ian Enrique
+    family-names: Estrada Castillo
+    email: l22211753@tectijuana.edu.mx
+    affiliation: ITT
+  - given-names: Diego Saul
+    family-names: Lopez Islas
+    email: L22211759@tectijuana.edu.mx
+    affiliation: ITT
+repository-code: 'https://github.com/Enkrique04/ProyectoMSF'
+keywords:
+  - Fototransducción
+  - Circuito RLC
+  - Degeneración Retinal
+  - Fotorreceptores
+  - Modelado dinámico
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2025-12-03'
