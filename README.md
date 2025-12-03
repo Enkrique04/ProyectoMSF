@@ -21,27 +21,14 @@ El modelizado de sistemas fisiológicos es una herramienta importante en Ingenie
 La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estudios de la carrera en Ingeniería Biomédica con la siguiente competencia general del curso: Utiliza las propiedades de los circuitos RLC para describir la dinámica de sistemas fisiológicos, obtener modelos matemáticos y aplicar el control clásico, esto con el objetivo de integrar los principios de la Ingeniería de Control, la Electrónica Analógica y las Ciencias de la Computación con la Anatomía y Fisiología del cuerpo humano para proporcionar descripciones cuantitativas y cualitativas de sistemas fisiológicos complejos con el objetivo de modelizar, analizar, controlar, ilustrar y predecir su dinámica tanto en el corto como en el largo plazo.
 
 ## Objetivos
-1. Resolver el sistema de EDOs mediante el método de Euler.
-2. Graficar el caso con transfusión sanguínea y sin transfusión sanguínea del individuo.
+1. Analizar la respuesta dinámica del sistema de fototransducción mediante un modelo de circuito RLC.
+2. Graficar y comparar el comportamiento dinámico entre el caso de un ojo sano y uno con degeneración retinal (Retinitis Pigmentosa).
+3. Interpretar las variaciones en la sensibilidad y temporalidad de la señal de salida ($V_{out}$) ante cambios paramétricos fisiológicos.
  
 
 ## Descripción detallada del sistema
 
-El sistema óptico, en particular el comportamiento de un fotoreceptor de la retina (bastón o cono) ante un estímulo luminoso, puede representarse de forma simplificada mediante un modelo que simule la dinámica de la transducción de luz en señal eléctrica. Este proceso puede describirse mediante un circuito equivalente donde se representan el retardo bioquímico, la conductancia de la membrana y la variación del potencial eléctrico del fotoreceptor.El comportamiento de este sistema, modelado mediante un circuito eléctrico de segundo orden, se establece bajo las siguientes suposiciones:
-
-1. El retardo bioquímico de la cascada de fototransducción, que incluye la activación de la rodopsina, transducina y PDE, se modela mediante una inductancia L, representando la inercia del sistema ante cambios rápidos de luz.
-
-2. La resistencia interna del fotoreceptor, asociada al transporte iónico longitudinal y pérdidas internas antes de llegar a la membrana, se modela mediante un resistor en serie R1.
-
-3. La capacitancia de la membrana del fotoreceptor, responsable de almacenar carga y regular la velocidad a la que cambia el potencial de membrana, se modela mediante un capacitor C.
-
-4. La conductancia dependiente de cGMP, que regula la entrada de iones Na⁺ y Ca²⁺ a través de los canales sensibles a cGMP y determina la corriente en oscuridad, se modela con un resistor R2 en paralelo con el capacitor. Esta resistencia puede interpretarse como la vía por la cual se “descarga” o regula el potencial del fotoreceptor.
-
-5. El potencial de salida del circuito, Vout(t), representa el potencial de membrana del fotoreceptor, el cual se hiperpolariza cuando disminuye la concentración de cGMP por acción de la luz.
-
-6. El flujo fotoeléctrico, equivalente a la absorción de fotones y activación de la rodopsina, se interpreta como el flujo de señal que atraviesa la rama serie L–R1 hasta el nodo de la membrana (representado por la combinación R2–C).
-
-La señal de entrada al sistema, Ve(t), se modela como un impulso unitario de luz, equivalente a un destello breve que activa de manera súbita la cascada de fototransducción. Esta señal permite estudiar la respuesta transitoria del fotoreceptor, incluyendo el retardo inicial, el pico de hiperpolarización y el retorno al estado de reposo, de forma análoga a cómo el fotoreceptor reacciona ante un estímulo visual abrupto.
+El siguiente modelo matemático basado en un circuito eléctrico RLC serie-paralelo es una representación analógica de la transducción visual, el proceso mediante el cual un fotón de luz genera una respuesta nerviosa en los fotorreceptores de la retina444444.Con respecto a las variables del sistema, la entrada $V_{in}$ modela el flujo de fotones absorbidos por el pigmento (fuente), mientras que la salida $V_{out}$ representa el potencial de membrana resultante5555. Los componentes del circuito no son físicos, sino que modelan dinámicas fisiológicas específicas: la inductancia $L$ representa la inercia fisiológica o el retardo en la cascada química (transducina/fosfodiesterasa) 6666; la capacitancia $C$ modela la capacidad de almacenamiento de carga en los discos membranosos del fotorreceptor7; $R_1$ describe la resistividad del segmento celular y fugas iónicas 8888; y $R_2$ representa la eficiencia sináptica hacia las células bipolares9999.
 
 Palabras clave: ?,?,?,?,?.
 
