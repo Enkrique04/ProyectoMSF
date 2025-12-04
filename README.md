@@ -57,8 +57,11 @@ Palabras clave: Fototransducción; Circuito RLC; Degeneración Retinal; Fotorrec
 
 ## Lista de archivos incluidos en el repositorio
 
-1. Cuaderno computacional de MATLAB \[.mlx].
+1. Cuaderno computacional de MATLAB y Simulink \[.mlx y slx].
 2. Imágenes de las simulaciones \[.pdf y .png].
+3. Calculos del modelo matematico \[.pdf]
+4. Modelo biologico \[.png]
+5. Imagen con los parámetros del controlador \[.png]
 
 ## Referencias
 
