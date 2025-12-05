@@ -48,7 +48,7 @@ Para el caso Sano, se propusieron los valores basales:
 4. $L = 0.1\ H$ 
 
 Para el caso con Degeneración Retinal, se utilizaron valores modificados que reflejan el daño fisiológico (menor conductancia y pérdida de discos):
-1. $R_1 = 1.2\ k\Omega$ (Aumento por menor conductancia de membrana)
+1. $R_1 = 5\ k\Omega$ (Aumento por menor conductancia de membrana)
 2. $R_2 = 2.0\ k\Omega$ (Aumento drástico por pérdida de conectividad sináptica)
 3. $C = 0.008\ F$ (Disminución por reducción del área de membrana)
 4. $L = 0.15\ H$ (Aumento por retardo en la cinética química)
